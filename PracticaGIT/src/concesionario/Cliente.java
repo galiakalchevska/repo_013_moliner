@@ -38,4 +38,28 @@ public class Cliente {
 	public String toString() {
 		return "Cliente [nombre=" + nombre + ", apellidos=" + apellidos + "]";
 	}
+
+	public String getIdCliente() {
+		return idCliente;
+	}
+
+	public void setIdCliente(String idCliente) {
+		this.idCliente = idCliente;
+	}
+
+	public String getNomCliente() {
+		return nomCliente;
+	}
+
+	public void setNomCliente(String nomCliente) {
+		this.nomCliente = nomCliente;
+	}
+
+	public String getApeCliente() {
+		return apeCliente;
+	}
+
+	public void setApeCliente(String apeCliente) {
+		this.apeCliente = apeCliente;
+	}
 }

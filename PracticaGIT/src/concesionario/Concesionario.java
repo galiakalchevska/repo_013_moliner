@@ -16,6 +16,21 @@ public class Concesionario {
 	public void setCoches(ArrayList<Coche> coches) {
 		this.coches = coches;
 	}
-		
+
+	public String getNomConcesionario() {
+		return nomConcesionario;
+	}
+
+	public void setNomConcesionario(String nomConcesionario) {
+		this.nomConcesionario = nomConcesionario;
+	}
+
+	public String getDirecConcesionario() {
+		return direcConcesionario;
+	}
+
+	public void setDirecConcesionario(String direcConcesionario) {
+		this.direcConcesionario = direcConcesionario;
+	}	
 }
 
