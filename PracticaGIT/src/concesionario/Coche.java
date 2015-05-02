@@ -4,6 +4,8 @@ package concesionario;
  * @author PUÑETEIRA
  * @version 2.0
  */
+//Comentario nuevo en clase <<Coche>>
+
 public class Coche {
 
 	private String matricula;

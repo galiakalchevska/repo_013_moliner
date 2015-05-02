@@ -2,6 +2,8 @@ package concesionario;
 
 public class Vendedor {
 	
+	//Comentario nuevo en clase <<Vendedor>>
+	
 	private String nomVendedor;
 	private String apeVendedor;
 	public String getNomVendedor() {
