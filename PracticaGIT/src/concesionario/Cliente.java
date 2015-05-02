@@ -8,7 +8,11 @@ public class Cliente {
 
 	private String nombre;
 	private String apellidos;
-
+	
+	private String idCliente;
+	private String nomCliente;
+	private String apeCliente;
+	
 	public String getNombre() {
 		return nombre;
 	}
