@@ -4,40 +4,55 @@ package concesionario;
  * @author PUÑETEIRA
  * @version 2.0
  */
-//Comentario nuevo en clase <<Coche>>
-
 public class Coche {
 
-	private String matricula;
-	private String marca;
-	private String modelo;
+	private static String matricula;
+	private static String marca;
+	private static String modelo;
 
-	public String getMatricula() {
+	public static String getMatricula() {
 		return matricula;
 	}
 
 	public void setMatricula(String matricula) {
-		this.matricula = matricula;
+		Coche.matricula = matricula;
 	}
 
 	@Override
 	public String toString() {
-		return "Coche [matricula=" + matricula + "]";
+		return "Coche [matricula=" + matricula + ", marca=" + marca
+				+ ", modelo=" + modelo + "]";
 	}
 
-	public String getMarca() {
+	public Coche() {
+	}
+
+	public Coche(String matricula, String marca, String modelo) {
+		setMatricula(matricula);
+		setMarca(marca);
+		setModelo(modelo);
+	}
+
+	public static void visualizar() {
+		System.out.println("Coche: ");
+		System.out.println("Matricula: " + Coche.getMatricula());
+		System.out.println("Marca :"+ Coche.getMarca());
+		System.out.println("Modelo :"+ Coche.getModelo());
+	}
+
+	public static String getMarca() {
 		return marca;
 	}
 
 	public void setMarca(String marca) {
-		this.marca = marca;
+		Coche.marca = marca;
 	}
 
-	public String getModelo() {
+	public static String getModelo() {
 		return modelo;
 	}
 
 	public void setModelo(String modelo) {
-		this.modelo = modelo;
+		Coche.modelo = modelo;
 	}
 }
