@@ -1,6 +1,6 @@
 package paquete1;
 
-import ejemplo1.Alumnado;
+import ejemplo1.Alumno;
 import ejemplo1.Lista;
 
 public class GestionarAlumnos {
@@ -16,10 +16,10 @@ public class GestionarAlumnos {
 
 		/* Creo dos alumnos */
 
-		Alumnado alumno1;
-		Alumnado alumno2;
-		alumno1 = new Alumnado("Pedro", 19);
-		alumno2 = new Alumnado("María", 18);
+		Alumno alumno1;
+		Alumno alumno2;
+		alumno1 = new Alumno("Pedro", 19);
+		alumno2 = new Alumno("María", 18);
 
 		/* Añadimos los alumnos a la lista */
 
@@ -28,7 +28,7 @@ public class GestionarAlumnos {
 
 		/* Obtenemos los valores de los atributos de listaDAW */
 
-		Alumnado[] miLista;
+		Alumno[] miLista;
 		miLista = listaDAW.getListaAlumno();
 		int numero;
 		numero = listaDAW.getNumeroAlumnos();
@@ -51,7 +51,7 @@ public class GestionarAlumnos {
 	 * @param miLista
 	 * @param numero
 	 */
-	private static void mostrarAlumnos(Alumnado[] miLista, int numero) {
+	private static void mostrarAlumnos(Alumno[] miLista, int numero) {
 		for (int i1 = 0; i1 < numero; i1++) {
 			System.out.println(miLista[i1].getNombre() + " "
 					+ miLista[i1].getEdad());
@@ -59,7 +59,7 @@ public class GestionarAlumnos {
 		}
 	}
 
-	public static void mostrarAlumnosComprobando(Alumnado[] miLista, int numero) {
+	public static void mostrarAlumnosComprobando(Alumno[] miLista, int numero) {
 		if (miLista != null) {
 			GestionarAlumnos.mostrarAlumnos(miLista, numero);
 		}
