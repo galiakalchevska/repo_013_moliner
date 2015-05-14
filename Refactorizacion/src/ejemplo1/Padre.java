@@ -1,5 +1,9 @@
 package ejemplo1;
 
+/**
+ * @author GALIA
+ *
+ */
 public class Padre {
 
 	private String nombrePadre;

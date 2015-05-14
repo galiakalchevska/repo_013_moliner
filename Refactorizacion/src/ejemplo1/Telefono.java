@@ -1,5 +1,9 @@
 package ejemplo1;
 
+/**
+ * @author GALIA
+ *
+ */
 public class Telefono {
 
 	public int telefono;

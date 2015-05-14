@@ -1,5 +1,9 @@
 package ejemplo1;
 
+/**
+ * @author GALIA
+ *
+ */
 public class Lista {
 	
 	private Alumnado[] listaAlumno;
