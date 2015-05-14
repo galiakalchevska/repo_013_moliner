@@ -1,6 +1,6 @@
 package ejemplo1;
 
-public class Alumno {
+public class Alumnado {
 		
 	protected String nombre;
 	protected int edad;
@@ -8,7 +8,7 @@ public class Alumno {
 	
 	/* Constructor */
 	
-	public Alumno(String a, int b) {
+	public Alumnado(String a, int b) {
 		nombre = a;
 		edad = b;
 	}
