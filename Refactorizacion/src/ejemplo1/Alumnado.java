@@ -38,6 +38,7 @@ public class Alumnado {
 	}
 	
 	public boolean puedeIrExcursion (int edadPuede){
+		
 		boolean puede = false;
 		
 		if (edad >= edadPuede){
